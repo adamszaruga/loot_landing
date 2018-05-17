@@ -294,7 +294,7 @@ a:focus {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 400px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -457,4 +457,64 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+.CTA {
+	background-color: #237091;
+	border-radius: 10px;
+	width: 60%;
+	padding: 15px;
+	margin: 20px;
+	margin-left: 45px;
+}
+
+.CTA h4 {
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	line-height: 24px;
+	color: #F6F7F9;
+}
+
+.CTA form {
+	margin-top: 15px;
+}
+
+.tagline {
+	margin-bottom: 5px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F58573;
+  border-color: #ED4D34;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #F58573;
+  border-color: #285e8e;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+#twrap i {
+	margin: 15px;
+}
+
+#twrap a {
+	font-size: 40px;
+	cursor: pointer;
+	color: white;
+}
+#twrap a:hover {
+	font-size: 40px;
+	cursor: pointer;
+	color: #F58573;
 }
