@@ -462,10 +462,10 @@ csmall2 {
 .CTA {
 	background-color: #237091;
 	border-radius: 10px;
-	width: 60%;
+	width: 90%;
 	padding: 15px;
-	margin: 20px;
-	margin-left: 45px;
+	margin: 0px auto;
+	margin-bottom: 40px;
 }
 
 .CTA h4 {
@@ -517,4 +517,12 @@ csmall2 {
 	font-size: 40px;
 	cursor: pointer;
 	color: #F58573;
+}
+
+@media (min-width: 1200px) {
+  .CTA {
+  		width: 60%;
+		margin: 20px;
+		margin-left: 45px;
+	}
 }
