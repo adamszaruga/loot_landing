@@ -519,6 +519,9 @@ csmall2 {
 	color: #F58573;
 }
 
+.copyright {
+	color: #818181;
+}
 @media (min-width: 1200px) {
   .CTA {
   		width: 60%;
